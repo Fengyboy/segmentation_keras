@@ -13,7 +13,7 @@ import os
 
 import numpy as np
 from PIL import Image
-from IPython import embed
+# from IPython import embed
 
 from model import get_frontend, add_softmax, add_context
 from utils import interp_map, pascal_palette
@@ -23,6 +23,7 @@ input_width, input_height = 900, 900
 label_margin = 186
 
 has_context_module = False
+
 
 def get_trained_model(args):
     """ Returns a model with loaded weights. """

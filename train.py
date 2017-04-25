@@ -8,7 +8,7 @@ import shutil
 import click
 import numpy as np
 from keras import callbacks, optimizers
-from IPython import embed
+# from IPython import embed
 
 from model import get_frontend, add_softmax
 from utils.image_reader import (
